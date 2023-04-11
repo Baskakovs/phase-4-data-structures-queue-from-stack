@@ -20,4 +20,12 @@ class Stack
     @stack.empty?
   end
 
+  def show
+    @stack
+  end
+
+  def remove_first
+    @stack.shift
+  end
+
 end
